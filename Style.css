@@ -1,0 +1,76 @@
+/* Attractive gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.container {
+  background: lightblue;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  border-color: #66a6ff;
+  box-shadow: 0 0 5px rgba(102, 166, 255, 0.5);
+}
+
+/* Button style */
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #66a6ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #5596f6;
+}
+
+/* Message after submission */
+#message {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
